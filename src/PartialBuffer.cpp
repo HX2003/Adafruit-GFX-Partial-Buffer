@@ -96,10 +96,10 @@ void PartialBuffer::fillScreen(uint16_t c) {
 		}
 	}
 } 
-uint16_t *PartialBuffer::bufferOut() {
+uint16_t *PartialBuffer::getBuffer() {
 	return buffer;
 }
-uint16_t PartialBuffer::pixelOut(int16_t x, int16_t y) {
+uint16_t PartialBuffer::getPixel(int16_t x, int16_t y) {
 	//uint8_t c1 = buffer[y*width*2 + x*2];
 	//uint8_t c2 = buffer[y*width*2 + x*2 + 1];
 	//uint16_t c = ((uint16_t)c2 << 8) | c1;
