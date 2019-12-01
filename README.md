@@ -1,5 +1,5 @@
 # Adafruit-GFX-Partial-Buffer
-Create a virtual buffer which can be modified just like a real display. Works only for 16 bit colour mode. Useful to prevent flickering when updating text for a small section of display.
+Create a virtual buffer which can be modified just like a real display. Works only for 16 bit colour mode. Useful to prevent flickering when updating text for a small section of display. May be obsolete, GFXcanvas1, GFXcanvas8 and GFXcanvas16.
 # Getting started
 In your sketch include this library.
 
